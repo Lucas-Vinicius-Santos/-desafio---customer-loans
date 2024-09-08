@@ -4,6 +4,8 @@ import com.lusvincius.desafio_emprestimo.domain.enums.LoanType;
 import com.lusvincius.desafio_emprestimo.domain.model.Loan;
 import com.lusvincius.desafio_emprestimo.domain.model.LoanEligibilityCriteria;
 import com.lusvincius.desafio_emprestimo.service.strategy.LoanStrategy;
+import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -16,7 +18,6 @@ public class ConsignmentLoanStrategy implements LoanStrategy {
 
   @Override
   public boolean availableLoan(LoanEligibilityCriteria loanEligibilityCriteria) {
-    System.out.println("Verificando disponibilidade de emprestimo: Consignado");
     return loanEligibilityCriteria.income() >= 5000;
   }
 }

@@ -17,7 +17,7 @@ public class LoansController {
   private final LoansService loansService;
 
   @PostMapping("customer-loans")
-  public ResponseEntity<CustomerLoansResponse> calculate(@RequestBody @Valid CustomerLoansRequest request) {
+  public ResponseEntity<CustomerLoansResponse> calculateLoans(@RequestBody @Valid CustomerLoansRequest request) {
     return ResponseEntity.ok().body(loansService.calculate(request));
   }
 }
