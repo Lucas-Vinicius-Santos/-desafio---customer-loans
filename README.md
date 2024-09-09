@@ -1,3 +1,22 @@
+
+<h2 align="center">
+  Desafio Empréstimos 🚀
+</h2>
+
+Comunidade [Back-End Brasil](https://github.com/backend-br).
+
+<hr>
+
+#### Decisões técnicas
+
+* Spring boot
+* Combo de Design Pattern Factory + Strategy 
+  > Para definir quais empréstimos estão disponível em relação aos dados fornecido do cliente
+* Testes de Integração com JUnit e Mockito
+* Bean Validation
+
+<hr>
+
 # Empréstimos
 
 Seu desafio será implementar um serviço que determine quais modalidades de empréstimo uma pessoa tem acesso.
