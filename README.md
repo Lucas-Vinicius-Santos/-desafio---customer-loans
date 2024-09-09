@@ -13,6 +13,7 @@ Comunidade [Back-End Brasil](https://github.com/backend-br).
 * Combo de Design Pattern Factory + Strategy 
   > Para definir quais empréstimos estão disponível em relação aos dados fornecido do cliente
 * Testes de Integração com JUnit e Mockito
+* Arquitetura em camadas
 * Bean Validation
 
 <hr>
